@@ -10,9 +10,16 @@ import UIKit
 
 class ViewController: UIViewController {
 
+	@IBOutlet var image_gif : UIImageView!
+
 	override func viewDidLoad() {
 		super.viewDidLoad()
 		// Do any additional setup after loading the view, typically from a nib.
+
+		var url_ : NSURL! = NSBundle.mainBundle().URLForResource("JNYJ", withExtension: "gif")
+
+		self.image_gif.image = UIImage.animatedImageWithAnimatedGIFURL(url_)
+		
 	}
 
 	override func didReceiveMemoryWarning() {

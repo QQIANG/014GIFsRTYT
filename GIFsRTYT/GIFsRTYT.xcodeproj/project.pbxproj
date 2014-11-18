@@ -13,6 +13,10 @@
 		7CBE689E1A1B16F400B6B27B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7CBE689D1A1B16F400B6B27B /* Images.xcassets */; };
 		7CBE68A11A1B16F400B6B27B /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7CBE689F1A1B16F400B6B27B /* LaunchScreen.xib */; };
 		7CBE68AD1A1B16F400B6B27B /* GIFsRTYTTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CBE68AC1A1B16F400B6B27B /* GIFsRTYTTests.swift */; };
+		7CBE68BD1A1B17F900B6B27B /* UIImage+animatedGIF.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CBE68B81A1B17F900B6B27B /* UIImage+animatedGIF.m */; };
+		7CBE68BE1A1B17F900B6B27B /* NSData+GIF.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CBE68BA1A1B17F900B6B27B /* NSData+GIF.m */; };
+		7CBE68BF1A1B17F900B6B27B /* UIImage+GIF.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CBE68BC1A1B17F900B6B27B /* UIImage+GIF.m */; };
+		7CBE68C11A1B19BE00B6B27B /* JNYJ.gif in Resources */ = {isa = PBXBuildFile; fileRef = 7CBE68C01A1B19BE00B6B27B /* JNYJ.gif */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +40,14 @@
 		7CBE68A61A1B16F400B6B27B /* GIFsRTYTTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GIFsRTYTTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7CBE68AB1A1B16F400B6B27B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7CBE68AC1A1B16F400B6B27B /* GIFsRTYTTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GIFsRTYTTests.swift; sourceTree = "<group>"; };
+		7CBE68B61A1B17F900B6B27B /* GIFsRTYT-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "GIFsRTYT-Bridging-Header.h"; sourceTree = "<group>"; };
+		7CBE68B71A1B17F900B6B27B /* UIImage+animatedGIF.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+animatedGIF.h"; sourceTree = "<group>"; };
+		7CBE68B81A1B17F900B6B27B /* UIImage+animatedGIF.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+animatedGIF.m"; sourceTree = "<group>"; };
+		7CBE68B91A1B17F900B6B27B /* NSData+GIF.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+GIF.h"; sourceTree = "<group>"; };
+		7CBE68BA1A1B17F900B6B27B /* NSData+GIF.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+GIF.m"; sourceTree = "<group>"; };
+		7CBE68BB1A1B17F900B6B27B /* UIImage+GIF.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+GIF.h"; sourceTree = "<group>"; };
+		7CBE68BC1A1B17F900B6B27B /* UIImage+GIF.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+GIF.m"; sourceTree = "<group>"; };
+		7CBE68C01A1B19BE00B6B27B /* JNYJ.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = JNYJ.gif; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,12 +89,20 @@
 		7CBE68931A1B16F400B6B27B /* GIFsRTYT */ = {
 			isa = PBXGroup;
 			children = (
+				7CBE68B71A1B17F900B6B27B /* UIImage+animatedGIF.h */,
+				7CBE68B81A1B17F900B6B27B /* UIImage+animatedGIF.m */,
+				7CBE68B91A1B17F900B6B27B /* NSData+GIF.h */,
+				7CBE68BA1A1B17F900B6B27B /* NSData+GIF.m */,
+				7CBE68BB1A1B17F900B6B27B /* UIImage+GIF.h */,
+				7CBE68BC1A1B17F900B6B27B /* UIImage+GIF.m */,
+				7CBE68C01A1B19BE00B6B27B /* JNYJ.gif */,
 				7CBE68961A1B16F400B6B27B /* AppDelegate.swift */,
 				7CBE68981A1B16F400B6B27B /* ViewController.swift */,
 				7CBE689A1A1B16F400B6B27B /* Main.storyboard */,
 				7CBE689D1A1B16F400B6B27B /* Images.xcassets */,
 				7CBE689F1A1B16F400B6B27B /* LaunchScreen.xib */,
 				7CBE68941A1B16F400B6B27B /* Supporting Files */,
+				7CBE68B61A1B17F900B6B27B /* GIFsRTYT-Bridging-Header.h */,
 			);
 			path = GIFsRTYT;
 			sourceTree = "<group>";
@@ -195,6 +215,7 @@
 				7CBE689C1A1B16F400B6B27B /* Main.storyboard in Resources */,
 				7CBE68A11A1B16F400B6B27B /* LaunchScreen.xib in Resources */,
 				7CBE689E1A1B16F400B6B27B /* Images.xcassets in Resources */,
+				7CBE68C11A1B19BE00B6B27B /* JNYJ.gif in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -213,7 +234,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				7CBE68991A1B16F400B6B27B /* ViewController.swift in Sources */,
+				7CBE68BD1A1B17F900B6B27B /* UIImage+animatedGIF.m in Sources */,
 				7CBE68971A1B16F400B6B27B /* AppDelegate.swift in Sources */,
+				7CBE68BF1A1B17F900B6B27B /* UIImage+GIF.m in Sources */,
+				7CBE68BE1A1B17F900B6B27B /* NSData+GIF.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -338,9 +362,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = GIFsRTYT/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "GIFsRTYT/GIFsRTYT-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
@@ -348,9 +375,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = GIFsRTYT/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "GIFsRTYT/GIFsRTYT-Bridging-Header.h";
 			};
 			name = Release;
 		};
