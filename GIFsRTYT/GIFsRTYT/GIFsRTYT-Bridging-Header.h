@@ -5,3 +5,4 @@
 #import "UIImage+animatedGIF.h"
 #import "NSData+GIF.h"
 #import "UIImage+GIF.h"
+#import "GIFs.h"
